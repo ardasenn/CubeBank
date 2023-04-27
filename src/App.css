@@ -1,38 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
 .App {
-  text-align: center;
+    background-color: #07121C;
+    width: 66%;
+    height: 70%;
+    bottom: 15%;
+    left: 17%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.account-personal-content {
+    padding: 2rem;
+    height: 11.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.account-personal-content h4 {
+    letter-spacing: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.account-content-main span {
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.account-content-footer {
+    text-align: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.account-content-footer span {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 2rem;
 }
+
+.account-personal {
+    /* padding: 0.4rem; */
+    color: #fff;
+    width: 22rem;
+    height: 14rem;
+    font-family: 'Nunito';
+    font-style: normal;
+    background: #15293C;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+
+.btns-personal-group {
+    background-color: #07121C;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.btn-personal {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: 32%;
+    height: 85%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+/*  */
